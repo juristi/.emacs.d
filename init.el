@@ -13,4 +13,6 @@
 
 (require 'install-packages)
 
+(require 'better-defaults)
+
 (load custom-file)
