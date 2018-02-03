@@ -15,10 +15,10 @@
 (package-initialize)
 
 (defvar my-wanted-packages
-  '(zenburn-theme
-    better-defaults
+  '(better-defaults
     magit
-    undo-tree)
+    undo-tree
+    zenburn-theme)
   "Packages that should be installed after start-up.")
 
 (dolist (pkg my-wanted-packages)
