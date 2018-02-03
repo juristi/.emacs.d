@@ -46,6 +46,9 @@ tramp
 .cask/
 dist/
 
+# IDO
+ido.last
+
 # Flycheck
 flycheck_*.el
 
