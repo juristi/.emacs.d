@@ -17,7 +17,8 @@
 (defvar my-wanted-packages
   '(zenburn-theme
     better-defaults
-    magit)
+    magit
+    undo-tree)
   "Packages that should be installed after start-up.")
 
 (dolist (pkg my-wanted-packages)

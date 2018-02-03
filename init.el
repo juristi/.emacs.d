@@ -14,6 +14,8 @@
 (require 'install-packages)
 (load-theme 'zenburn t)
 
+(global-undo-tree-mode)
+
 (require 'better-defaults)
 
 (load custom-file)
