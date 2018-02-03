@@ -15,7 +15,8 @@
 (package-initialize)
 
 (defvar my-wanted-packages
-  '(better-defaults
+  '(zenburn-theme
+    better-defaults
     magit)
   "Packages that should be installed after start-up.")
 

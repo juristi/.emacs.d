@@ -12,6 +12,7 @@
   (normal-top-level-add-subdirs-to-load-path))
 
 (require 'install-packages)
+(load-theme 'zenburn t)
 
 (require 'better-defaults)
 
