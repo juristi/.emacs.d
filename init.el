@@ -17,5 +17,6 @@
 (global-undo-tree-mode)
 
 (require 'better-defaults)
+(require 'languages)
 
 (load custom-file)

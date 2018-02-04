@@ -17,6 +17,7 @@
 (defvar my-wanted-packages
   '(better-defaults
     magit
+    paredit
     undo-tree
     zenburn-theme)
   "Packages that should be installed after start-up.")
