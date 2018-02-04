@@ -5,8 +5,9 @@
 
 (package-initialize)
 
-(setq inhibit-splash-screen t
-      custom-file (expand-file-name "custom.el" user-emacs-directory))
+(setq column-number-mode t
+      custom-file (expand-file-name "custom.el" user-emacs-directory)
+      inhibit-splash-screen t)
 
 (let ((default-directory (expand-file-name "conf" user-emacs-directory)))
   (normal-top-level-add-subdirs-to-load-path))
