@@ -14,6 +14,7 @@
 
 (require 'install-packages)
 (load-theme 'zenburn t)
+(set-face-attribute 'default nil :height 90)
 
 (global-undo-tree-mode)
 
