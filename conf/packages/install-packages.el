@@ -23,7 +23,7 @@
   "Packages that should be installed after start-up.")
 
 (dolist (pkg my-wanted-packages)
-  (when (not (package-installed-p pkg))
+  (unless (package-installed-p pkg)
     (package-install pkg)))
 
 (provide 'install-packages)
