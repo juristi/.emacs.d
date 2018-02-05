@@ -16,6 +16,7 @@
 
 (defvar my-wanted-packages
   '(better-defaults
+    js2-mode
     magit
     paredit
     undo-tree
