@@ -19,7 +19,9 @@
 
 (defvar my-wanted-packages
   '(better-defaults
+    counsel
     flycheck
+    ivy
     js2-mode
     magit
     paredit

@@ -6,6 +6,8 @@
 
 ;;; Code:
 
+(require '_ivy)
+
 ;; By http://endlessparentheses.com/implementing-comment-line.html
 (defun comment-or-uncomment-line-or-region (n)
   "Comment or uncomment current line and leave point after it.
