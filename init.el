@@ -1,7 +1,10 @@
-;; init.el
+;; init.el ---  Personal Emacs configration entry point.
 ;;
-;; Personal Emacs configration entry point.
 ;; This file is not part of GNU Emacs
+
+;;; Commentary:
+
+;;; Code:
 
 (package-initialize)
 
@@ -22,3 +25,5 @@
 (require 'languages)
 
 (load custom-file)
+
+;;; init.el ends here

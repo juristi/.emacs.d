@@ -1,4 +1,10 @@
-;; _lisp.el
+;; _lisp.el --- Lisp specific configurations
+
+;; This file is not part of GNU Emacs
+
+;;; Commentary:
+
+;;; Code:
 
 (autoload 'enable-paredit-mode "paredit" "Turn on pseudo-structural editing of Lisp code." t)
 (add-hook 'emacs-lisp-mode-hook       #'enable-paredit-mode)
@@ -9,4 +15,5 @@
 (add-hook 'scheme-mode-hook           #'enable-paredit-mode)
 
 (provide '_lisp)
-;; End of file
+
+;;; _lisp.el ends here

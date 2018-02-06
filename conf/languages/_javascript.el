@@ -1,10 +1,14 @@
-;; _javascript.el
-;;
-;; Javascript specific packages and configurations
+;; _javascript.el --- Javascript specific packages and configurations
+
+;; This file is not part of GNU Emacs
+
+;;; Commentary:
+
+;;; Code:
 
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 (add-to-list 'interpreter-mode-alist '("node" . js2-mode))
 
 (provide '_javascript)
 
-;; End of file
+;;; _javascript.el ends here

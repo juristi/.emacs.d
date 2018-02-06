@@ -1,7 +1,10 @@
-;; packages.el
-;;
-;; Verify that all wanted packages are installed
+;; install-packages.el ---  Verify that all wanted packages are installed
+
 ;; This file is not part of GNU Emacs
+
+;;; Commentary:
+
+;;; Code:
 
 (require 'package)
 
@@ -30,4 +33,4 @@
 
 (provide 'install-packages)
 
-;; End of file
+;;; install-packages.el ends here
