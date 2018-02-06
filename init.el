@@ -22,6 +22,7 @@
 (global-undo-tree-mode)
 
 (require 'better-defaults)
+(require 'local)
 (require 'languages)
 
 (load custom-file)
