@@ -19,5 +19,7 @@
 (setq ivy-use-virtual-buffers t)
 (setq ivy-count-format "(%d/%d) ")
 
+(counsel-projectile-mode)
+
 (provide '_ivy)
 ;;; _ivy.el ends here

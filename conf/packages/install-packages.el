@@ -20,11 +20,13 @@
 (defvar my-wanted-packages
   '(better-defaults
     counsel
+    counsel-projectile
     flycheck
     ivy
     js2-mode
     magit
     paredit
+    projectile
     undo-tree
     zenburn-theme)
   "Packages that should be installed after start-up.")
