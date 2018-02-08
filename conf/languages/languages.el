@@ -7,6 +7,7 @@
 
 (require '_javascript)
 (require '_lisp)
+(require '_python)
 
 (provide 'languages)
 

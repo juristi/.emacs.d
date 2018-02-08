@@ -21,6 +21,7 @@
   '(better-defaults
     counsel
     counsel-projectile
+    elpy
     flycheck
     ivy
     js2-mode
