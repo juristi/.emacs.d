@@ -6,10 +6,11 @@
 
 ;;; Code:
 
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+(load custom-file)
 (package-initialize)
 
 (setq column-number-mode t
-      custom-file (expand-file-name "custom.el" user-emacs-directory)
       inhibit-splash-screen t)
 
 (let ((default-directory (expand-file-name "conf" user-emacs-directory)))
@@ -24,7 +25,5 @@
 (require 'better-defaults)
 (require 'local)
 (require 'languages)
-
-(load custom-file)
 
 ;;; init.el ends here
