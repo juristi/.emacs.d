@@ -25,6 +25,7 @@
     flycheck
     ivy
     js2-mode
+    json-mode
     magit
     paredit
     projectile

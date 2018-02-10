@@ -1,14 +1,17 @@
-;; languages.el
+;; languages.el --- Central point to configure programming language modes
 ;;
-;; Programming language specific configurations and hooks.
 ;; This file is not part of GNU Emacs
+
+;;; Commentary:
+;;; Code:
 
 (require '_common)
 
 (require '_javascript)
+(require '_json)
 (require '_lisp)
 (require '_python)
 
 (provide 'languages)
 
-;; End of file
+;;; languages.el ends here
