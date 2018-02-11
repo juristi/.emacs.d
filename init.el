@@ -17,7 +17,7 @@
   (normal-top-level-add-subdirs-to-load-path))
 
 (require 'install-packages)
-(load-theme 'zenburn t)
+(load-theme 'flatui-dark t)
 (set-face-attribute 'default nil :height 90)
 
 (global-undo-tree-mode)

@@ -22,6 +22,7 @@
     counsel
     counsel-projectile
     elpy
+    flatui-dark-theme
     flycheck
     ivy
     js2-mode
@@ -29,8 +30,7 @@
     magit
     paredit
     projectile
-    undo-tree
-    zenburn-theme)
+    undo-tree)
   "Packages that should be installed after start-up.")
 
 (dolist (pkg my-wanted-packages)
