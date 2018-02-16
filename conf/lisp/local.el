@@ -29,6 +29,8 @@ If region is active, apply to active region instead."
 
 (define-key prog-mode-map (kbd "C-;") 'comment-or-uncomment-line-or-region)
 
+(defalias 'yes-or-no-p 'y-or-n-p)
+
 (provide 'local)
 
 ;;; local.el ends here
