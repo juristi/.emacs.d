@@ -20,6 +20,7 @@
 (defvar my-wanted-packages
   '(better-defaults
     company
+    company-lsp
     counsel
     counsel-projectile
     elpy
@@ -28,6 +29,7 @@
     ivy
     js2-mode
     json-mode
+    lsp-mode
     magit
     paredit
     projectile
