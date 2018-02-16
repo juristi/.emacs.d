@@ -7,6 +7,8 @@
 
 
 (global-flycheck-mode)
+(require 'company)
+(add-hook 'prog-mode-hook 'company-mode-on)
 
 (provide '_common)
 

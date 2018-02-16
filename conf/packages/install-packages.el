@@ -19,6 +19,7 @@
 
 (defvar my-wanted-packages
   '(better-defaults
+    company
     counsel
     counsel-projectile
     elpy
