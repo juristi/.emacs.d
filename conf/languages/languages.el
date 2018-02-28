@@ -11,6 +11,7 @@
 (require '_json)
 (require '_lisp)
 (require '_python)
+(require '_yaml)
 
 (provide 'languages)
 

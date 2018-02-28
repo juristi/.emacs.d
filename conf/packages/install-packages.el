@@ -34,7 +34,8 @@
     magit
     paredit
     projectile
-    undo-tree)
+    undo-tree
+    yaml-mode)
   "Packages that should be installed after start-up.")
 
 (dolist (pkg my-wanted-packages)
