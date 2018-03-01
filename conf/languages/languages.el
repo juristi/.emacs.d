@@ -7,6 +7,7 @@
 
 (require '_common)
 
+(require '_elm)
 (require '_javascript)
 (require '_json)
 (require '_lisp)

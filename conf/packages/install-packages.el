@@ -23,6 +23,7 @@
     company-lsp
     counsel
     counsel-projectile
+    elm-mode
     elpy
     flatui-dark-theme
     flycheck
