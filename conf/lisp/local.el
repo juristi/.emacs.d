@@ -1,4 +1,4 @@
-;;; local.el --- A miscellanious compilation of snippets and tweaks.
+;;; generic-conf.el --- A miscellanious compilation of snippets and tweaks.
 
 ;; This file is not part of GNU Emacs
 
@@ -31,7 +31,8 @@ If region is active, apply to active region instead."
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
-(provide 'local)
 
-;;; local.el ends here
+(provide 'generic-conf)
+
+;;; generic-conf.el ends here
 

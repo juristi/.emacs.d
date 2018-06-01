@@ -1,4 +1,4 @@
-;; _common.el --- Configure and enable general development packages.
+;; _common-prog.el --- Configure and enable general development packages.
 ;; This file is not part of GNU Emacs
 
 ;;; Commentary:
@@ -14,6 +14,6 @@
 (require 'company-lsp)
 (add-to-list 'company-backends 'company-lsp)
 
-(provide '_common)
+(provide '_common-prog)
 
-;;; _common.el ends here
+;;; _common-prog.el ends here

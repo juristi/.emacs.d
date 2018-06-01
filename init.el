@@ -23,7 +23,7 @@
 (global-undo-tree-mode)
 
 (require 'better-defaults)
-(require 'local)
+(require 'generic-conf)
 (require 'languages)
 
 ;;; init.el ends here

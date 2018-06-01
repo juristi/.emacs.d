@@ -5,7 +5,7 @@
 ;;; Commentary:
 ;;; Code:
 
-(require '_common)
+(require '_common-prog)
 
 (require '_elm)
 (require '_javascript)
