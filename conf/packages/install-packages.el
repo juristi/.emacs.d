@@ -27,6 +27,7 @@
     elpy
     flatui-dark-theme
     flycheck
+    git-gutter
     ivy
     js2-mode
     json-mode
