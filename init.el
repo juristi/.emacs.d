@@ -26,4 +26,8 @@
 (require 'generic-conf)
 (require 'languages)
 
+(let ((local-conf-file (expand-file-name "local.el" user-emacs-directory)))
+  (when (file-readable-p local-conf-file)
+    (load-file local-conf-file)))
+
 ;;; init.el ends here
