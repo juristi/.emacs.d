@@ -23,6 +23,7 @@
     company-lsp
     counsel
     counsel-projectile
+    dockerfile-mode
     elm-mode
     elpy
     flatui-dark-theme
