@@ -31,6 +31,7 @@
     git-gutter
     ivy
     js2-mode
+    js2-refactor
     json-mode
     lsp-mode
     lsp-python
