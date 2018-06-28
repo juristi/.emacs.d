@@ -14,6 +14,16 @@
 
 (js2r-add-keybindings-with-prefix "C-c C-r")
 
+;; Tuned configuration for Projectile NPM project type
+(require 'projectile)
+(let ((npm-executable (or (executable-find "pnpm")
+                          (executable-find "npm"))))
+  (when npm-executable
+    (projectile-register-project-type 'npm '("package.json")
+                                      :configure (format "%s install" npm-executable)
+                                      :test (format "%s test" npm-executable)
+                                      :run (format "%s start" npm-executable)
+                                      :test-prefix "test_")))
 
 (provide '_javascript)
 
