@@ -18,7 +18,6 @@
 
 (require 'install-packages)
 (load-theme 'flatui-dark t)
-(set-face-attribute 'default nil :height 90)
 
 (global-undo-tree-mode)
 
