@@ -34,6 +34,8 @@ If region is active, apply to active region instead."
 (global-set-key (kbd "C-c a") 'org-agenda)
 (global-git-gutter-mode +1)
 
+(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+
 (provide 'generic-conf)
 
 ;;; generic-conf.el ends here
