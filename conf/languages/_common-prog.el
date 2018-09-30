@@ -7,6 +7,8 @@
 
 
 (global-flycheck-mode)
+(add-hook 'prog-mode-hook #'electric-pair-local-mode)
+
 (require 'company)
 (add-hook 'prog-mode-hook 'company-mode-on)
 

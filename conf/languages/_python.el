@@ -11,7 +11,6 @@
 
 (require 'lsp-python)
 (add-hook 'python-mode-hook #'lsp-python-enable)
-(add-hook 'python-mode-hook #'electric-pair-local-mode)
 
 (provide '_python)
 ;;; _python.el ends here

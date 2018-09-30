@@ -7,8 +7,6 @@
 
 (require 'elm-mode)
 
-(add-hook 'elm-mode-hook 'electric-pair-local-mode)
-
 (when (featurep 'company)
   (add-to-list 'company-backends 'company-elm))
 

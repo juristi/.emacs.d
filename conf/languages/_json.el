@@ -6,7 +6,6 @@
 ;;; Code:
 
 (add-to-list 'auto-mode-alist '("\\.json\\'" . json-mode))
-(add-hook 'json-mode-hook 'electric-pair-local-mode)
 
 (provide '_json)
 ;;; _json.el ends here
