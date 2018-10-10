@@ -26,6 +26,7 @@
     dockerfile-mode
     elm-mode
     elpy
+    ensime
     flatui-dark-theme
     flycheck
     git-gutter

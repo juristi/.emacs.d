@@ -13,6 +13,7 @@
 (require '_json)
 (require '_lisp)
 (require '_python)
+(require '_scala)
 (require '_yaml)
 
 (provide 'languages)
