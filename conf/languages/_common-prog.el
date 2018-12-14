@@ -12,9 +12,8 @@
 (require 'company)
 (add-hook 'prog-mode-hook 'company-mode-on)
 
-(require 'lsp-mode)
-(require 'company-lsp)
-(add-to-list 'company-backends 'company-lsp)
+(require 'lsp)
+(require 'lsp-clients)
 
 (provide '_common-prog)
 

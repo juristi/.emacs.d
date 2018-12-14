@@ -9,8 +9,7 @@
 (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
 (add-hook 'elpy-mode-hook 'flycheck-mode)
 
-(require 'lsp-python)
-(add-hook 'python-mode-hook #'lsp-python-enable)
+(add-hook 'python-mode-hook #'lsp)
 
 (provide '_python)
 ;;; _python.el ends here

@@ -36,6 +36,7 @@
     json-mode
     lsp-mode
     lsp-python
+    lsp-ui
     magit
     paredit
     projectile
