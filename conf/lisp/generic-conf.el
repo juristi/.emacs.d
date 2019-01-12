@@ -36,6 +36,17 @@ If region is active, apply to active region instead."
 
 (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
 
+
+;; Unclutter modeline from unneeded package info
+(require 'editorconfig)
+(editorconfig-mode 1)
+
+(require 'diminish)
+(eval-after-load "editorconfig" '(diminish 'editorconfig-mode))
+(eval-after-load "git-gutter" '(diminish 'git-gutter-mode))
+(eval-after-load "ivy" '(diminish 'ivy-mode))
+
+
 (provide 'generic-conf)
 
 ;;; generic-conf.el ends here

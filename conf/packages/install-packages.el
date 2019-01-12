@@ -23,7 +23,9 @@
     company-lsp
     counsel
     counsel-projectile
+    diminish
     dockerfile-mode
+    editorconfig
     elm-mode
     elpy
     ensime
