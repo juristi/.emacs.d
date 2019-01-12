@@ -32,6 +32,8 @@ If region is active, apply to active region instead."
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 (global-set-key (kbd "C-c a") 'org-agenda)
+
+(global-set-key (kbd "C-x g") 'magit-status)
 (global-git-gutter-mode +1)
 
 (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
