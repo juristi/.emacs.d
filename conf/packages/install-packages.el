@@ -24,6 +24,7 @@
     company-lsp
     counsel
     counsel-projectile
+    counsel-tramp
     diminish
     dockerfile-mode
     editorconfig
