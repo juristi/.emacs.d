@@ -20,6 +20,7 @@
 (defvar my-wanted-packages
   '(better-defaults
     company
+    company-go
     company-lsp
     counsel
     counsel-projectile
@@ -32,6 +33,8 @@
     flatui-dark-theme
     flycheck
     git-gutter
+    go-guru
+    go-mode
     ivy
     js2-mode
     js2-refactor
