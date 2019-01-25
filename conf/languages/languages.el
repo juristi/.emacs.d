@@ -8,6 +8,7 @@
 (require '_common-prog)
 
 (require '_docker)
+(require '_go)
 (require '_elm)
 (require '_javascript)
 (require '_json)
