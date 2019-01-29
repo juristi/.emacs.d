@@ -36,7 +36,6 @@
     git-gutter
     go-guru
     go-mode
-    go-snippets
     ivy
     ivy-yasnippet
     js2-mode
