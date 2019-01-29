@@ -31,9 +31,9 @@ If region is active, apply to active region instead."
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
-(global-set-key (kbd "C-c a") 'org-agenda)
+(global-set-key (kbd "C-c a") #'org-agenda)
 
-(global-set-key (kbd "C-x g") 'magit-status)
+(global-set-key (kbd "C-x g") #'magit-status)
 (global-git-gutter-mode +1)
 
 (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
@@ -51,6 +51,7 @@ If region is active, apply to active region instead."
 (eval-after-load "editorconfig" '(diminish 'editorconfig-mode))
 (eval-after-load "git-gutter" '(diminish 'git-gutter-mode))
 (eval-after-load "ivy" '(diminish 'ivy-mode))
+(eval-after-load "undo-tree" '(diminish 'undo-tree-mode))
 
 
 (provide 'generic-conf)
