@@ -38,6 +38,10 @@ If region is active, apply to active region instead."
 
 (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
 
+(require 'yasnippet)
+(require 'ivy-yasnippet)
+(yas-global-mode 1)
+(global-set-key (kbd "<C-tab>") #'ivy-yasnippet)
 
 ;; Unclutter modeline from unneeded package info
 (require 'editorconfig)

@@ -36,7 +36,9 @@
     git-gutter
     go-guru
     go-mode
+    go-snippets
     ivy
+    ivy-yasnippet
     js2-mode
     js2-refactor
     json-mode
@@ -47,7 +49,9 @@
     paredit
     projectile
     undo-tree
-    yaml-mode)
+    yaml-mode
+    yasnippet
+    yasnippet-snippets)
   "Packages that should be installed after start-up.")
 
 (dolist (pkg my-wanted-packages)
