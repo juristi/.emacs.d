@@ -32,7 +32,6 @@
     flatui-dark-theme
     flycheck
     git-gutter
-    go-guru
     go-mode
     ivy
     ivy-yasnippet

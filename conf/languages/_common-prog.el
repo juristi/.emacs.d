@@ -15,6 +15,9 @@
 (require 'lsp)
 (require 'lsp-clients)
 
+;; Prefer flycheck when checking source code
+(setq lsp-prefer-flymake nil)
+
 (provide '_common-prog)
 
 ;;; _common-prog.el ends here
