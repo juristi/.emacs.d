@@ -7,6 +7,10 @@
 
 (require 'go-mode)
 
+(defun projectile-go-project-p ()
+  "Check if a project contains Go source files or a go.mod file."
+  (or (projectile-verify-file-wildcard "*.go")
+      (projectile-verify-file "go.mod")))
 
 (add-hook 'go-mode-hook (lambda ()
                           (setf tab-width 2)
