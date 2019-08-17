@@ -44,6 +44,7 @@
     magit
     paredit
     projectile
+    sly
     undo-tree
     yaml-mode
     yasnippet
