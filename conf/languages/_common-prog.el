@@ -10,7 +10,8 @@
 (add-hook 'prog-mode-hook #'electric-pair-local-mode)
 
 (require 'company)
-(add-hook 'prog-mode-hook 'company-mode-on)
+(add-hook 'prog-mode-hook #'company-mode-on)
+(add-hook 'comint-mode-hook #'company-mode-on)
 
 (require 'lsp)
 (require 'lsp-clients)
