@@ -11,5 +11,8 @@
 
 (add-hook 'python-mode-hook #'lsp)
 
+; Enable electric pair mode in Python shell
+(add-hook 'inferior-python-mode-hook #'electric-pair-local-mode)
+
 (provide '_python)
 ;;; _python.el ends here
